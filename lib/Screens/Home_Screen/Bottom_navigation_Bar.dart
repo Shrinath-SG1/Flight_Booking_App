@@ -53,25 +53,25 @@ class BottomNavigationState extends State<BottomNavigationBarScreen> {
      //   backgroundColor: Colors.indigo,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home,),
-            label: 'Home',
+            icon: Icon(Icons.home,size: 30),
+            label: '',
 
             //backgroundColor: Colors.indigo,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Places',
+            icon: Icon(Icons.explore_outlined,size: 30),
+            label: '',
 // title: Text('hello',style: TextStyle(
 // color: _selectedIndex == 0? Colors.blue:Colors.grey,
 // ),),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_location_alt_sharp),
-            label: 'Featured',
+            icon: Icon(Icons.post_add_sharp,size: 30),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle_outlined),
-            label: 'My Account',
+            icon: Icon(Icons.account_circle_outlined,size: 30,),
+            label: ' ',
           ),
         ],
       ),

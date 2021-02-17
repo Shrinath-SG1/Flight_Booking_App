@@ -11,8 +11,8 @@ class HorizontalScrollImages extends StatelessWidget {
     // TODO: implement build
     //throw UnimplementedError();
     return Container(
-     // color: Colors.yellow,
-      height: height * 0.40,
+      //color: Colors.yellow,
+      height: height * 0.42,
       child: Column(
         children: [
           Container(
@@ -20,7 +20,7 @@ class HorizontalScrollImages extends StatelessWidget {
             child: Text(
               Strings.BestOffer,
               style: TextStyle(
-                  fontSize: 26,
+                  fontSize: 24,
                   fontWeight: FontWeight.w800,
                   color: CustomTextColors.Indigo),
             ),
@@ -48,7 +48,7 @@ class HorizontalScrollImages extends StatelessWidget {
                 child: Text(
                   Strings.ViewAll,
                   style: TextStyle(
-                      fontSize: 18,
+                      fontSize: 16,
                       fontWeight: FontWeight.w500,
                       color: CustomTextColors.pink),
                 ),
@@ -56,7 +56,7 @@ class HorizontalScrollImages extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: height * 0.01,
+            height: height * 0.02,
           ),
          Container(
             //color: Colors.black,
@@ -72,6 +72,7 @@ class HorizontalScrollImages extends StatelessWidget {
                   Country: Strings.CountryList[0],
                   Height:  height*0.22,
                   Width: width*0.70,
+                  ImgWidth: width*0.65,
                 ),
                 SizedBox(
                   width: width * 0.03,
@@ -82,6 +83,7 @@ class HorizontalScrollImages extends StatelessWidget {
                   Country: Strings.CountryList[1],
                   Height:  height*0.22,
                   Width: width*0.60,
+                  ImgWidth: width*0.65,
                 ),
                 SizedBox(
                   width: width * 0.03,
@@ -92,6 +94,7 @@ class HorizontalScrollImages extends StatelessWidget {
                   Country: Strings.CountryList[2],
                   Height:  height*0.22,
                   Width: width*0.60,
+                  ImgWidth: width*0.65,
                 ),
                 SizedBox(
                   width: width * 0.03,
@@ -102,6 +105,7 @@ class HorizontalScrollImages extends StatelessWidget {
                   Country: Strings.CountryList[3],
                   Height:  height*0.22,
                   Width: width*0.60,
+                  ImgWidth: width*0.65,
                 ),
                 SizedBox(
                   width: width * 0.03,
@@ -112,6 +116,7 @@ class HorizontalScrollImages extends StatelessWidget {
                   Country: Strings.CountryList[4],
                   Height:  height*0.22,
                   Width: width*0.60,
+                  ImgWidth: width*0.65,
                 ),
               ],
             ),

@@ -6,10 +6,11 @@ import 'package:travelapp/Common/strings.dart';
 class ImageCard extends StatelessWidget{
   final double Height;
   final double Width;
+  final double ImgWidth;
 final String image;
 final String Location;
 final String Country;
-  ImageCard({this.image,this.Location,this.Country,this.Height,this.Width});
+  ImageCard({this.image,this.Location,this.Country,this.Height,this.Width,this.ImgWidth});
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
@@ -18,7 +19,7 @@ final String Country;
     //throw UnimplementedError();
     return Container(
      // color: Colors.blue,
-      //width: width*0.60,
+      width: ImgWidth,
       child: Column(
           children: [
             Container(
@@ -43,7 +44,7 @@ final String Country;
                 Location,
                 style: TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.w500,
+                    fontWeight: FontWeight.w800,
                     color: CustomColors.Indigo),
               ),
             ),

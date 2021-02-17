@@ -35,7 +35,7 @@ class VerticalScrollImages extends StatelessWidget {
                 child: Text(
                   Strings.ViewAll,
                   style: TextStyle(
-                      fontSize: 18,
+                      fontSize: 16,
                       fontWeight: FontWeight.w500,
                       color: CustomTextColors.pink),
                 ),
@@ -43,9 +43,9 @@ class VerticalScrollImages extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: height * 0.01,
+            height: height * 0.02,
           ),
-          Container(
+          Container(padding: const EdgeInsets.only(right: 15),
 
            // color: Colors.black,
             //color: Colors.amber,
@@ -57,6 +57,7 @@ class VerticalScrollImages extends StatelessWidget {
                   Location: Strings.LocationList[4],
                   Country: Strings.CountryList[4],
                   Width: width*0.95,
+                  ImgWidth: width*0.92,
                 ),
                 SizedBox(
                   height: width * 0.03,
